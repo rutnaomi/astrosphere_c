@@ -4,26 +4,29 @@
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>LAMAN REGISTRASI WEBSITE MAHASISWA</title>
+    <link rel="stylesheet" href="/Week3/style/w3.css">
+
     </head>
+    <center>
     <body>
         <div> 
             <h1>REGISTER FORM</h1>
             
-                <form action="submit_form.php" method="POST">
+                <form action="submit_form.php" method="POST" class="login">
                     <label for="name">Full Name:</label><br/>
                     <input type="text" id="name" name="name"><br><br>
                     <label for="email">Email:</label><br>
                     <input type="email" id="email" name="email"><br><br>
                     <label for="password" id="password" name="password">Password:</label><br>
                     <input type="password" id="password" name="password"><br><br>
+                    <label for="Gender">Choose Gender</label>
+                    <select>
+                        <option value="Laki-Laki">Laki-Laki</option>
+                        <option value="Perempuan">Perempuan</option>
+                        <option value="Lainnya">Lainnya</option>
+                    </select>
                     
                 </form>
-                <label for="Gender">Choose Gender</label>
-                <select>
-                    <option value="Laki-Laki">Laki-Laki</option>
-                    <option value="Perempuan">Perempuan</option>
-                    <option value="Lainnya">Lainnya</option>
-                </select>
                     
                     <p>Apakah anda menggunakan kendaraan untuk ke kampus</p>
                     <form>
@@ -35,21 +38,28 @@
         
                    
                     <p>Jika Anda memiliki kendaraan pribadi. Silakan pilih saah satu di bawah ini sesuai kendaraan yang sering Anda gunakan</p>
+                <div class="row">
+                 <div class="isi">
                     <input type="checkbox" id="vehicle1" name="vehicle1" value="motor"/>
                     <label for="vehicle1">Saya menggunakan motor</label><br/>
-
-                    <input type="checkbox" id="vehicle2" name="vehicle2" value="mobil"/>
-                    <label for="vehicle2">Saya menggunakan mobil</label><br/>
-
-                    <input type="checkbox" id="vehicle3" name="vehicle3" value="sepeda"/>
-                    <label for="vehicle3">Saya menggunakan sepeda</label><br><br/>
+                </div>
+                 <div class="isi">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="motor"/>
+                    <label for="vehicle1">Saya menggunakan motor</label><br/>
+                </div>
+                 <div class="isi">
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="motor"/>
+                    <label for="vehicle1">Saya menggunakan motor</label><br/>
+                </div>
                     
-                    <button type="submit"> <a href="http://127.0.0.1:5500/Week3/register2.html">Registrasi</a></button>
-                   
+                </div>
+
+                    <button type="submit" class="tombol"> <a href="http://127.0.0.1:5500/Week3/register2.html" style="text-decoration: none; color: black;">Registrasi</a></button>
+                
                 </form>
             </div>
         </div>
-        
+    </center>
 
     </body>
 </html>

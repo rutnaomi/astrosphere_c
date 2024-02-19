@@ -1,0 +1,39 @@
+body{
+    background: rgb(253,123,180);
+    background: radial-gradient(circle, rgba(253,123,180,1) 32%, rgba(30,94,163,1) 91%);
+
+}
+.login{
+    background-color: rgba(255, 255, 255, 0.26);
+    backdrop-filter: blur(2px);
+    padding: 3rem;
+    margin: 0 100px;
+    width: 20rem;
+    border-radius: 30px;
+}
+body{
+    background: rgb(255,229,229);
+    background: radial-gradient(circle, rgba(255,229,229,1) 0%, rgba(117,106,182,1) 100%);
+    
+}
+*{
+    align-items: center;
+    justify-content: center;
+}
+.row .isi{
+    padding: 10px;
+    
+}
+.row{
+    margin-bottom: 1rem;
+}
+.tombol{
+    text-decoration: none;
+    color: black;
+}
+.tombol:active{
+    color: gold;
+}
+.tombol:hover{
+    background-color: darkcyan;
+}
