@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>LAMAN REGISTRASI WEBSITE MAHASISWA</title>
+    </head>
+    <body>
+        <div> 
+            <h1>REGISTER FORM</h1>
+            
+                <form action="submit_form.php" method="POST">
+                    <label for="name">Full Name:</label><br/>
+                    <input type="text" id="name" name="name"><br><br>
+                    <label for="email">Email:</label><br>
+                    <input type="email" id="email" name="email"><br><br>
+                    <label for="password" id="password" name="password">Password:</label><br>
+                    <input type="password" id="password" name="password"><br><br>
+                    
+                </form>
+                <label for="Gender">Choose Gender</label>
+                <select>
+                    <option value="Laki-Laki">Laki-Laki</option>
+                    <option value="Perempuan">Perempuan</option>
+                    <option value="Lainnya">Lainnya</option>
+                </select>
+                    
+                    <p>Apakah anda menggunakan kendaraan untuk ke kampus</p>
+                    <form>
+                        <input type="radio" id="Yes" name="fav_language" value="Yes"/>
+                        <label for="Yes">Yes</label><br>
+
+                        <input type="radio" id="No" name="fav_language" value="No"/>
+                        <label for="No">No</label>
+        
+                   
+                    <p>Jika Anda memiliki kendaraan pribadi. Silakan pilih saah satu di bawah ini sesuai kendaraan yang sering Anda gunakan</p>
+                    <input type="checkbox" id="vehicle1" name="vehicle1" value="motor"/>
+                    <label for="vehicle1">Saya menggunakan motor</label><br/>
+
+                    <input type="checkbox" id="vehicle2" name="vehicle2" value="mobil"/>
+                    <label for="vehicle2">Saya menggunakan mobil</label><br/>
+
+                    <input type="checkbox" id="vehicle3" name="vehicle3" value="sepeda"/>
+                    <label for="vehicle3">Saya menggunakan sepeda</label><br><br/>
+                    
+                    <button type="submit"> <a href="http://127.0.0.1:5500/Week3/register2.html">Registrasi</a></button>
+                   
+                </form>
+            </div>
+        </div>
+        
+
+    </body>
+</html>

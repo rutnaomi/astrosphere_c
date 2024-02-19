@@ -1,0 +1,51 @@
+*{
+    font-family:Georgia, 'Times New Roman', Times, serif
+}
+html,body{
+    padding: 0;
+    margin: 0;
+
+}
+.kepala{
+    min-height: 100vh;
+}
+.badan{
+    background-color: darkgreen;
+    padding: 3rem;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+
+    justify-content: center;
+}
+.kaki{
+    color: aliceblue;
+    background-color: black;
+    padding: 2rem;
+    border-top: 2px white solid;
+}
+.kaki img{
+    width: 30px;
+    background-color: aliceblue;
+    padding: 0.3rem;
+    border-radius: 10px;
+    transition: 1s;
+    margin: 0 1rem;
+}
+.kaki img:hover{
+    width: 40px;
+    background-color: darkgreen;
+
+}
+.table:hover{
+    font-size: 2rem;
+
+}
+.table{
+    background-color: rgba(0, 0, 0, 0.201);
+    padding: 2rem;
+    border-radius: 10px;
+    font-size: 1.5rem;
+    transition: 1s;
+    color: aliceblue;
+}

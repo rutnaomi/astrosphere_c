@@ -1,0 +1,16 @@
+.juan{
+    color:red; 
+}
+*{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+    
+button {
+    background-color: blueviolet;
+}
+button:hover{
+    background-color: blanchedalmond;
+}
+.gambar{
+    width: 100px;
+}
