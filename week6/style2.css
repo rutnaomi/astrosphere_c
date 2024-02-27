@@ -1,5 +1,5 @@
 *{
-    font-family:Georgia, 'Times New Roman', Times, serif
+    font-family: sans-serif;
 }
 html,body{
     padding: 0;
@@ -8,14 +8,20 @@ html,body{
 }
 .kepala{
     min-height: 100vh;
+    
+}
+.leher{
+    /* text-align: justify; */
+    background-color: darkgoldenrod;
+    padding: 2rem;
+    border-top: 10px rgb(251, 0, 255) solid;
+    font-size: 1rem;
 }
 .badan{
     background-color: darkgreen;
     padding: 3rem;
-    min-height: 100vh;
     display: flex;
     align-items: center;
-
     justify-content: center;
 }
 .kaki{
